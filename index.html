@@ -6,20 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-  <header class="container">
-    <nav>
-      <h1>Food, LLC</h1>
-    </nav>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="navbar-brand">
+            <h1>Food, LLC</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown-menu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div id="dropdown-menu" class="collapse">
+        <ul>
+          <li class="dropdown-item text-center"><a href="">Chicken</a></li><hr>
+          <li class="dropdown-item text-center"><a href="">Beef</a></li><hr>
+          <li class="dropdown-item text-center"><a href="">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
   </header>
 
   <div id="maincontent">
-    <h2>Our Menu</h2>
-    <div class="container col-xs-12">
-      <h3>Chicken</h3>
-
+    <h2 class="text-center">Our Menu</h2>
+    <div id="info-box" class="container col-xs-12">
+      <h3 class="text-center">Chicken</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem sit officia delectus odit similique quasi laudantium ad dolor voluptas aspernatur blanditiis asperiores recusandae suscipit, eveniet eaque! Animi accusantium culpa dolorem!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur cum expedita animi quisquam enim vero ad rerum suscipit ullam eos. Dolorum pariatur maiores harum placeat laudantium laborum atque ipsam consequatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi repellendus perferendis soluta delectus odit neque blanditiis officiis fugit? Adipisci cupiditate neque doloremque dolor! Eos dolores possimus obcaecati laudantium impedit quia.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At odio dolore explicabo expedita harum a soluta quam, suscipit animi praesentium, minus doloribus ex saepe accusantium blanditiis eaque, neque ullam fugiat?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque tempora labore aperiam necessitatibus sapiente molestiae, fugiat provident exercitationem dolores praesentium deserunt numquam magni, in, cupiditate temporibus asperiores odit aliquam. Asperiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas dolorum ipsum corporis saepe id deleniti minus, natus repellendus maxime voluptates, maiores, odit iusto ab itaque consequuntur aspernatur quis incidunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est et corrupti voluptatem beatae quibusdam earum esse. Dicta error molestias fuga nesciunt sed necessitatibus voluptatibus laudantium quas mollitia! Architecto, optio consequuntur!
+      </p>
     </div>
   </div>
 </body>
